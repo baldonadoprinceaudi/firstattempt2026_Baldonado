@@ -3,7 +3,7 @@
 ### Project Details
 
 Framework: Next JS
-Module: Alumni Portal: Desktop Conversion
+Module: Donation
 
 **1. Prerequisites**
 
