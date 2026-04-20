@@ -62,3 +62,17 @@ GitHub Copilot (Real-time tweaks)
 
 Pretend you are a senior developer at Ateneo de Davao's faculty. You are tasked to convert the mobile application into a desktop website. I will be sending screenshots of the figma prototype along with its flow. According to the google document, please do the task. Make sure it is compiled in two files, page.js and layout.js. i will be using Next JS.  Two files since i will be using both layout.js and page.js. Again, JS not TSX. The design must be same as the mobile app screenshots from the google.
 https://docs.google.com/document/d/13NIZ3nuV5V8HZF5EA5cs13c29f0GBIvSYKqFWOEXlP8/edit?tab=t.0
+
+
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/6f316b3f-56ba-46aa-a77c-3a79f3029c26" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/8453f36e-7626-4142-bbc0-07c6688f29b1" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/96267378-a840-449f-b0c8-4cd6f808d30e" />
+<img width="1918" height="1079" alt="Image" src="https://github.com/user-attachments/assets/49c9338c-e873-4205-9487-037452138c48" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/4daa3896-cba0-497c-bc68-37c25d123f7c" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/2926a5b2-9fcd-403a-8a85-11f0f55c3f36" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/cc22ea4f-6407-4317-85fc-70c846b5206a" />
+<img width="1902" height="1049" alt="Image" src="https://github.com/user-attachments/assets/c4c8a738-80f6-4d4f-b891-45e62d667825" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/5b0b5e8b-012e-4211-9d3a-89887ddc7c71" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/d2b5e23d-5f76-46c1-b786-3aaf99ff0029" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/031ad18e-d501-4705-a85c-73c7f58bc007" />
+<img width="1919" height="1075" alt="Image" src="https://github.com/user-attachments/assets/39ccf370-3a83-4a8c-b59c-7e65c7587800" />
