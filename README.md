@@ -38,7 +38,7 @@ http://localhost:3000
 
 Clone the Repository:
 ```
-[git clone https://github.com/baldonadoprinceaudi/firstattempt2026_Baldonado]
+git clone https://github.com/baldonadoprinceaudi/firstattempt2026_Baldonado.git
 ```
 ```
 cd addu-alumni-portal
