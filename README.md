@@ -63,6 +63,8 @@ GitHub Copilot (Real-time tweaks)
 Pretend you are a senior developer at Ateneo de Davao's faculty. You are tasked to convert the mobile application into a desktop website. I will be sending screenshots of the figma prototype along with its flow. According to the google document, please do the task. Make sure it is compiled in two files, page.js and layout.js. i will be using Next JS.  Two files since i will be using both layout.js and page.js. Again, JS not TSX. The design must be same as the mobile app screenshots from the google.
 https://docs.google.com/document/d/13NIZ3nuV5V8HZF5EA5cs13c29f0GBIvSYKqFWOEXlP8/edit?tab=t.0
 
+### Screenshots
+
 
 <img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/6f316b3f-56ba-46aa-a77c-3a79f3029c26" />
 <img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/8453f36e-7626-4142-bbc0-07c6688f29b1" />
