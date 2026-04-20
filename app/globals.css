@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f0f4f8;
+  --foreground: #1a202c;
+  --primary: #3182ce;
+  --secondary: #2d3748;
+  --accent: #38b2ac;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1a202c;
+    --foreground: #f0f4f8;
+    --primary: #63b3ed;
+    --secondary: #4a5568;
+    --accent: #81e6d9;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="password"] {
+  color: var(--foreground);
+  font-weight: bold;
+}
