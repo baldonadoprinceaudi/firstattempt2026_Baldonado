@@ -70,13 +70,21 @@ Master Prompt used for PWA Conversion: I am converting a static project built wi
 
 ### AI Hallucinations & Manual Fixes
 During the PWA implementation phase, the AI generated a few configuration blind spots that had to be resolved manually:
+
 Path Alias Hallucination (Module not found): The AI provided an import path of '@/components/ServiceWorkerRegistry' which caused a build error. The project was not configured for the @/ path alias.
+
 Fix: Manually updated the import in layout.js to use a relative path: '../components/ServiceWorkerRegistry'.
+
 Missing Layout Integration: The AI generated the ServiceWorkerRegistry component but failed to automatically insert it into the existing layout.js structure alongside the metadata.
+
 Fix: Manually replaced the layout.js code to properly inject the <ServiceWorkerRegistry /> component inside the <body> tag and link the /manifest.json in the metadata.
+
 Port Conflict (EADDRINUSE): The terminal threw a listen EADDRINUSE: address already in use :::3000 error when running the production server.
+
 Fix: Realized the development server (npm run dev) was still running in the background. Manually terminated the process (Ctrl + C) before executing npm run start.
+
 Git CLI Configuration Hurdles: When attempting to push the new PWA branch, Git blocked the commit due to Author identity unknown, followed by a missing upstream branch error.
+
 Fix: Manually set global git config variables (user.email and user.name), and manually linked the local branch to the remote repository using git push --set-upstream origin feature/pwa-ready.
 
 ### Screenshots
