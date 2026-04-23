@@ -77,7 +77,7 @@ function LoginScreen({ onLogin }) {
       <div className="w-full max-w-md bg-white rounded-3xl shadow-2xl overflow-y-auto flex flex-col relative">
         <div className="bg-[#050454] pt-16 pb-20 px-8 flex flex-col items-center">
           <img 
-            src="/addu-logo.png" 
+            src="/logo.png" 
             alt="ADDU Logo" 
             className="w-30 h-30 object-contain mb-4 drop-shadow-md" 
           />
@@ -160,7 +160,7 @@ function Sidebar({ isAdmin, activeTab, setActiveTab, onLogout }) {
     <aside className="w-72 bg-white border-r border-slate-200 flex flex-col shadow-sm">
       <div className="p-8 flex items-center gap-4 border-b border-slate-100">
         <div className="w-40 h-37 bg-[#050454] rounded-lg flex items-center justify-center text-white text-xs font-serif shadow-md"> <img 
-  src="/addu-logo.png" 
+  src="/logo.png" 
   alt="ADDU Logo" 
   className="w-30 h-30 object-contain mb-4 drop-shadow-md" 
 /></div>
@@ -1401,7 +1401,7 @@ function UserProfile({ isStaff, setSubView }) {
          <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
          <div className="flex justify-between items-start mb-10 relative z-10">
   <img 
-  src="/addu-logo.png" 
+  src="/logo.png" 
   alt="ADDU Logo" 
   className="w-30 h-30 object-contain mb-4 drop-shadow-md" 
 />

@@ -63,6 +63,30 @@ GitHub Copilot (Real-time tweaks)
 Pretend you are a senior developer at Ateneo de Davao's faculty. You are tasked to convert the mobile application into a desktop website. I will be sending screenshots of the figma prototype along with its flow. According to the google document, please do the task. Make sure it is compiled in two files, page.js and layout.js. i will be using Next JS.  Two files since i will be using both layout.js and page.js. Again, JS not TSX. The design must be same as the mobile app screenshots from the google.
 https://docs.google.com/document/d/13NIZ3nuV5V8HZF5EA5cs13c29f0GBIvSYKqFWOEXlP8/edit?tab=t.0
 
+
+### PWA Implementation (Progressive Web App)
+Master Prompt used for PWA Conversion: I am converting a static project built with next.js into a Progressive Web Application (PWA). Please guide me through the implementation. I need you to generate:1. A valid manifest.json configured for a university-branded app.2. A Service Worker script.3. The code to register the Service Worker in my main entry file.4. A caching strategy in the Service Worker so the app loads instantly and works completely offline (cache first, fallback to network).Please explain where each snippet goes in my project structure. Please base on the Addu nation app.
+
+
+### AI Hallucinations & Manual Fixes
+During the PWA implementation phase, the AI generated a few configuration blind spots that had to be resolved manually:
+
+Path Alias Hallucination (Module not found): The AI provided an import path of '@/components/ServiceWorkerRegistry' which caused a build error. The project was not configured for the @/ path alias.
+
+Fix: Manually updated the import in layout.js to use a relative path: '../components/ServiceWorkerRegistry'.
+
+Missing Layout Integration: The AI generated the ServiceWorkerRegistry component but failed to automatically insert it into the existing layout.js structure alongside the metadata.
+
+Fix: Manually replaced the layout.js code to properly inject the <ServiceWorkerRegistry /> component inside the <body> tag and link the /manifest.json in the metadata.
+
+Port Conflict (EADDRINUSE): The terminal threw a listen EADDRINUSE: address already in use :::3000 error when running the production server.
+
+Fix: Realized the development server (npm run dev) was still running in the background. Manually terminated the process (Ctrl + C) before executing npm run start.
+
+Git CLI Configuration Hurdles: When attempting to push the new PWA branch, Git blocked the commit due to Author identity unknown, followed by a missing upstream branch error.
+
+Fix: Manually set global git config variables (user.email and user.name), and manually linked the local branch to the remote repository using git push --set-upstream origin feature/pwa-ready.
+
 ### Screenshots
 
 
