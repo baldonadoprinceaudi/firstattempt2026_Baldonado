@@ -102,3 +102,5 @@ Fix: Manually set global git config variables (user.email and user.name), and ma
 <img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/d2b5e23d-5f76-46c1-b786-3aaf99ff0029" />
 <img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/031ad18e-d501-4705-a85c-73c7f58bc007" />
 <img width="1919" height="1075" alt="Image" src="https://github.com/user-attachments/assets/39ccf370-3a83-4a8c-b59c-7e65c7587800" />
+<img width="440" height="171" alt="addu-nation" src="https://github.com/user-attachments/assets/6f6dbc31-0d28-4961-9b9d-ac438484cda8" />
+<img width="930" height="1053" alt="Addu nation app" src="https://github.com/user-attachments/assets/993ed331-0f53-47ab-aea4-273d03747b97" />
